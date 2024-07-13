@@ -1,0 +1,34 @@
+1.主输出：
+{
+#showtooltip 寒冰箭
+/use [usable] 13
+/use [usable] 14
+/cast 冰冷血脉
+/cast 寒冰箭
+}
+---13和14 是瞬发饰品，/cast 可以衔接任何瞬发爆发技能
+---默认使用一个主输出技能栏位 1
+2.辅助宏
+{
+#showtooltip
+/castsequence reset=25 寒冰护体, null
+/cast [reset=145] 召唤水元素
+
+}
+---rest 是技能冷却时间，注意第二个reset 要打括号
+--默认使用两个辅助技能栏位 2，3
+3.buff宏
+{
+#showtooltip
+/castsequence reset=target/combat 奥术智慧, 冰甲术, 魔法抑制
+
+}
+---三个增益按顺序施放，本脚本默认最大三个增益
+---默认使用一个增益技能栏位 4
+
+
+
+
+5，6，7，8 均为保命技能栏位，按顺序施放
+ 
+9，0 吃喝
