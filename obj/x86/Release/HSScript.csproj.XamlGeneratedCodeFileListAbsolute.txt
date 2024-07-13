@@ -1,0 +1,3 @@
+obj\x86\Release\_HSScript.g.cs
+obj\x86\Release\Workflow1.g.cs
+obj\x86\Release\WowMove_Workflow1_BeforeInitializeComponentHelper.cs
